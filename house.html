@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Details page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e727029809.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html">
+            <img src="images/logo-red.png" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular places</a></li>
+            <li><a href="#">Travel Outside</a></li>
+            <li><a href="listing.html">Online packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wengers House</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>
+                        245 Reviews
+                    </span>
+                    <div>
+                        <p>Location: San Francisco,California ,United Sates</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/house-1.png"></div>
+            <div><img src="images/house-2.png"></div>
+            <div><img src="images/house-3.png"></div>
+            <div><img src="images/house-4.png"></div>
+            <div><img src="images/house-5.png"></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire Rental unit Hosted by Brandon</h2>
+            <p>4 guest &nbsp;&nbsp; 3 bedrooms/4 beds &nbsp; &nbsp; 3 Bathroom </p>
+            <h4>$500 / day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Check-In</label>
+                <input type="text" placeholder="Add date">
+            </div>
+
+            <div>
+                <label>Check-Out</label>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div class="guest-field">
+                <label>Guests</label>
+                <input type="text" placeholder="Add Guests">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+        <ul class=" ">
+            <li>
+                <i class="fa-solid fa-house"></i>Entire home
+                <span>
+                    Have entire Flat to yourself
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-broom"></i>Regular Cleaning Services
+                <span>
+                    Host has committed to staybnb's Cleaning process
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-location-dot"></i>Great location
+                <span>
+                    Located in the heart of the city with excellet connectivity
+                </span>
+            </li>
+        </ul>
+        <hr class="line">
+        <div class="map">
+            <h3>How To Reach</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13394.018024190153!2d-122.43671636364085!3d37.75856482875768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1690025775225!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="images/host.png">
+            <div>
+                <h2>Hosted By Brandon</h2>
+                <p>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>&nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; Response Rate 100%
+                </p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact Host</a>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https;//facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https;//youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https;//twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https;//linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https;//instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright @2023 , Staybnb pvt ltd.</p>
+        </div>
+    </div>
+    <script>
+        var navBar = document.getElementById("navBar")
+
+        function togglebtn() {
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+
+</html>
